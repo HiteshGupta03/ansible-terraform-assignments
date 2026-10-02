@@ -1,0 +1,25 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+
+# SSH/private keys
+*.pem
+id_rsa
+id_rsa.pub
+authorized_keys
+
+# AWS credentials
+.aws/
+
+# Ansible temporary files
+*.retry
+
+# OS/editor files
+.DS_Store
+.vscode/
